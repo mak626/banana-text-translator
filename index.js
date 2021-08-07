@@ -1,7 +1,7 @@
 const submitButton = document.querySelector("#submit");
 const outputTextField = document.querySelector("#output-field");
 
-const API_URL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json?text=CONTENT";
+const API_URL = "https://api.funtranslations.com/translate/minion.json?text=CONTENT";
 
 submitButton.addEventListener("click", () => {
     const givenData = document.querySelector("#input-field").value;
