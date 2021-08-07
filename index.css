@@ -1,0 +1,47 @@
+:root {
+  font-family: Poppins;
+  color: black;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, yellow, rgb(255, 123, 0));
+}
+
+.main {
+  display: flex;
+  margin: auto;
+  max-width: 80vw;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main textarea {
+  box-sizing: border-box;
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: large;
+  font-family: inherit;
+}
+
+.main button {
+  background-color: orange;
+  border: none;
+  border-radius: 50px;
+  margin-top: 2rem;
+  height: 3rem;
+  width: 10rem;
+  font-size: larger;
+  font-weight: 700;
+}
